@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Mera Singh
+Sudent Email:  mesingh@syr.edu
 
 ## Instructions
 
@@ -22,4 +22,10 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+This assignment really helped me get more comfortable using Playwright to scrape dynamic websites. I learned how to find elements using CSS selectors, move around the page structure with nextElementSibling, and extract data from each menu section in a way that felt organized. It was cool seeing how everything came together into a clean CSV file.
 
+One thing that tripped me up at first was figuring out how to go from a menu title down to the right <div> that actually held the menu items. The DOM structure wasn’t super clear at first, so I had to play around with the element relationships and try different approaches until it worked. I also ran into a couple of annoying Python import errors—mainly because I didn’t fully get how imports behave when you’re running files from different folders. Once I understood that from code.menuitem wasn’t going to work inside the code/ folder, things clicked.
+
+Another challenge was making sure the selectors I used actually matched what was on the page—especially since the menu layout had lots of nested divs. It helped to use DevTools and really look at the structure before writing the code. I also got a better feel for using dataclasses in Python, and how they make it super easy to organize scraped data.
+
+If anything, I think I still need more practice navigating complex page structures and making sure I’m grabbing the right elements efficiently. But overall, I feel way more confident in using Playwright for web scraping now, and I know I could apply this same process to another restaurant menu or similar page.
