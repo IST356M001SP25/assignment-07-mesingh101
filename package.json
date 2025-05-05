@@ -1,0 +1,25 @@
+{
+  "name": "assignment-07-mesingh101",
+  "version": "1.0.0",
+  "description": "## Meta Section",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IST356M001SP25/assignment-07-mesingh101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IST356M001SP25/assignment-07-mesingh101/issues"
+  },
+  "homepage": "https://github.com/IST356M001SP25/assignment-07-mesingh101#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3"
+  }
+}
